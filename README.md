@@ -8,5 +8,5 @@
 ``` shell
 git clone https://github.com/LanzoMA/longest_word.git
 cd longest_word/
-./venv/bin/python main.py
+./.venv/bin/python main.py
 ```

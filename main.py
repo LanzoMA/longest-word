@@ -45,9 +45,10 @@ def main() -> None:
     # On the CASIO fx-991CW calculator, you have access to different leters.
     letters_2: set[str] = {'a', 'b', 'c', 'd', 'e', 'f', 'i', 'x', 'y', 'z'}
 
-    longest_word: str = get_longest_word(every_word, letters_2)
+    longest_word: str = get_longest_word(every_word, letters_1)
     long_words: set[str] = get_long_words(every_word, letters_2, 6)
-    print(long_words)
+
+    print(f"Longest word: {longest_word}")
     
 
 if __name__ == "__main__":
